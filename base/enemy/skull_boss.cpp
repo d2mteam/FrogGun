@@ -111,7 +111,7 @@ void skull::InitBullet(SDL_Renderer* screen)
             }
         }
         //phase 2
-        else if(hp_ >= 50)
+        else
         {
             int tp = 4 + (75 - hp_)/5;
             for(int i = 0; i < tp; i++)
