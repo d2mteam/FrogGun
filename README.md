@@ -22,8 +22,7 @@ FrogGun là một trò chơi phiêu lưu hành động nơi người chơi đi�
 - Nhấn `SHIFT` để dash
 - Nhấn `ESC` để pause game
 ## Tài liệu tham khảo
-- Tham khảo cơ bảntừ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
-- game thay đổi và bố sung nhiều cơ chế
+- Tham khảo và học hỏi về hướng đối tượng và SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 ## Kiến thức sử dụng
 - Lớp, đối tượng, đa hình, kế thừa
 - Toán học
