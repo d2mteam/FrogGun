@@ -322,6 +322,10 @@ bool SDLbasefuction::GameOverMenu(SDL_Renderer* screen,const int& high_score)
 					if(SDLbasefuction::CheckMousePos(MousePosX,MousePosY,MainMenuButton[0].GetRect()) == true)
 					{
 						is_quit = true;
+						TTF_CloseFont(font_time);
+						font_time = NULL;
+						TTF_CloseFont(font_time_1);
+						font_time_1 = NULL;
 						return false;
 					}
 					if(SDLbasefuction::CheckMousePos(MousePosX,MousePosY,ExitButton[0].GetRect()) == true)
@@ -775,11 +779,19 @@ int SDLbasefuction::CheckWin(const int& x_pos,const int& y_pos,SDL_Renderer* scr
 				{
 					if(SDLbasefuction::CheckMousePos(MousePosX,MousePosY,MainMenuButton[0].GetRect()) == true)
 					{
+						TTF_CloseFont(font_time);
+						font_time = NULL;
+						TTF_CloseFont(font_time_1);
+						font_time_1 = NULL;
 						is_quit = true;
 						return 1;
 					}
 					if(SDLbasefuction::CheckMousePos(MousePosX,MousePosY,NextButton[0].GetRect()) == true)
 					{
+						TTF_CloseFont(font_time);
+						font_time = NULL;
+						TTF_CloseFont(font_time_1);
+						font_time_1 = NULL;
 						is_quit = true;
 						Map_LV++;
 						Map_LV %= 5;

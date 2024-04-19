@@ -106,9 +106,35 @@ void close()
 {
 	g_background.Free();
 	SDL_DestroyRenderer(g_screen);
+	for(int i = 0; i < 5; i++)
+	{
+		Layout[i].Free();
+	}
 	g_screen = NULL;
 	SDL_DestroyWindow(g_window);
 	g_window = NULL;
+
+	for(int i = 0; i < 9; i++)
+	{
+		Mix_FreeMusic(g_gameMusic[i]);
+		g_gameMusic[i] = NULL;
+	}
+	Mix_FreeMusic(g_MenuMusic);
+	Mix_FreeChunk(g_sound_bullet);
+	Mix_FreeChunk(g_sound_pickup);
+	Mix_FreeChunk(g_sound_explosion);
+	Mix_FreeChunk(g_sound_jump);
+
+	g_MenuMusic = NULL;
+	g_sound_bullet = NULL;
+	g_sound_pickup = NULL;
+	g_sound_explosion = NULL;
+	g_sound_jump = NULL;
+	TTF_CloseFont(font_time);
+	font_time = NULL;
+
+	Mix_Quit();
+	TTF_Quit();
 	IMG_Quit();
 	SDL_Quit();
 }
