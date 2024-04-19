@@ -24,7 +24,7 @@ std::vector<ThreatsObject*> Random::MakeThreatslist(const int& Difficulty_, SDL_
 	// 		list_threats.push_back(p_threats);
 	// 	}
 	// }
-	int trunk_num_ = (Difficulty_ + 1)*20;
+	int trunk_num_ = (Difficulty_ + 1)*15;
 	trunk* trunk_ = new trunk[trunk_num_];
 	for(int i = 0; i < trunk_num_; i++ )
 	{
@@ -160,7 +160,7 @@ std::vector<ThreatsObject*> Random::MakeThreatslist(const int& Difficulty_, SDL_
 		}
 	}
 	
-	int rino_num_ = (Difficulty_ + 1)*20;
+	int rino_num_ = (Difficulty_ + 1)*15;
 	rino* rino_ = new rino[rino_num_];
 	for(int i = 0; i < rino_num_; i++)
 	{
