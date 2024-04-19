@@ -10,7 +10,9 @@ FrogGun là một trò chơi phiêu lưu hành động nơi người chơi đi�
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
 - Chạy minggw32-make trong thư mục game hoặc mở terminal lên và chạy lệnh
-  `g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf`
+``` shell
+g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf
+```
 - nhấn vào main.exe và chơi
 ## Hướng dẫn chơi:
 - Người chơi bắt đầu với 10 máu và 6 viên đạn
