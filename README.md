@@ -6,7 +6,7 @@ Sinh viên: Dương Đình Minh
 
 MSV: 23020110
 
-FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch được trang bị súng laser để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 5 màn chơi và 1 boss cuối  
+FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 5 màn chơi và 1 boss cuối  
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
 - Chạy minggw32-make trong thư mục game
