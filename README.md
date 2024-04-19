@@ -13,3 +13,4 @@ FrogGun là một trò chơi phiêu lưu hành động nơi người chơi đi�
 - Nhấn `a`, `d`, `w` để di chuyển trái/phải/lên.
 - Nhấn `1`, `2`, `4` để chuyển trạng thái bình thường/chạy nhanh/bắn nhiều đạn.
 - Nhấn `q`, `e` để đổi loại đạn.
+- Nhấn `SHIFT` để dash
