@@ -20,8 +20,8 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 ```
 ## Hướng dẫn chơi:
 - Người chơi bắt đầu với 10 máu và 6 viên đạn
-- có 4 chế độ easy, medium, hard, very hard.
-- các chế độ trên easy sẽ khó hơn, nhiều kẻ thù hơn 
+- có 4 chế độ `easy`, `medium`, `hard`, `very hard`
+- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, nhiều bẫy hơn
 - Nhấn `a`, `d`, `w` để di chuyển trái/phải/lên
 - Nhấn `w` lần thứ 2 để double jump
 - Nhấn `1`, `2`, `4` để chuyển trạng thái bình thường/chạy nhanh/bắn nhiều đạn
