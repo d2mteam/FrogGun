@@ -9,9 +9,14 @@ MSV: 23020110
 FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 5 màn chơi và 1 boss cuối  
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
-- Chạy minggw32-make trong thư mục game hoặc mở terminal lên và chạy lệnh
+- mở terminal lên và chạy lệnh
+``` shell
+mingw32-make
+```
+- hoặc
 ``` shell
 g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf
+./main
 ```
 - nhấn vào main.exe và chơi
 ## Hướng dẫn chơi:
