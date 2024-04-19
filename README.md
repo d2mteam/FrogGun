@@ -18,7 +18,6 @@ mingw32-make
 g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf
 ./main
 ```
-- nhấn vào main.exe và chơi
 ## Hướng dẫn chơi:
 - Người chơi bắt đầu với 10 máu và 6 viên đạn
 - có 4 chế độ easy, medium, hard, very hard.
