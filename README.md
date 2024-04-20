@@ -31,7 +31,7 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 ## Tài liệu tham khảo
 - Tham khảo và học hỏi về hướng đối tượng và SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 ## Kiến thức sử dụng
-- Lớp, đối tượng, đa hình, kế thừa
+- Lớp, đối tượng, tính đa hình, tính kế thừa
 - Toán học
 - SDL2
 ## Ngưỡng điểm mong muốn
