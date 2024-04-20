@@ -1,10 +1,9 @@
 # FrogGun
 SDL2_Game_Project
-Đây là bài tập lớn trong học phần Lập trìng nâng cao
-
+Đây là bài tập lớn về làm game trên sdl2 trong học phần Lập trìng nâng cao
 Sinh viên: Dương Đình Minh
 MSV: 23020110
-
+## Giới thiệu về game
 FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối. Hãy đánh bại kẻ địch và đạt điểm số cao nhất.   
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
@@ -17,7 +16,7 @@ mingw32-make
 g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf
 ./main
 ```
-- hoặc có thể tạo fie task.json trong vscode và thêm phần này vào
+- hoặc có thể tạo fie task.json trong vscode và thêm phần này vào để có thể run code trong vscode
 ``` json
             "args": [
                 "-fdiagnostics-color=always",
