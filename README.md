@@ -55,7 +55,13 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - Nhân vật có 4 cấp, khi lên cấp sẽ tăng lượng đạn bắn ra và tăng tốc nhân vật
 ## Tài liệu tham khảo
 - Tham khảo và học hỏi về hướng đối tượng và thư viện SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
-- Các file game asset được lấy từ [itch.io](https://itch.io/game-assets/free)
+- Các file game asset được lấy từ [itch.io](https://itch.io/game-assets/free) bao gồm:
+
+  - Nhân vật https://pixelfrog-assets.itch.io/pixel-adventure-1
+  
+  - Kẻ địch https://pixelfrog-assets.itch.io/pixel-adventure-2
+  
+  - Background https://free-game-assets.itch.io/free-sky-with-clouds-background-pixel-art-set
 ## Kiến thức sử dụng
 - OOP (Lớp, đối tượng, tính đa hình, tính kế thừa, virtual fuction và override)
 - Một số kiến thức toán học, hình học
