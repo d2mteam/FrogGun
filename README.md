@@ -6,7 +6,7 @@ Sinh viên: Dương Đình Minh
 
 MSV: 23020110
 
-FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 5 màn chơi và 1 boss cuối  
+FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối  
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
 - mở terminal lên và chạy lệnh
@@ -21,7 +21,7 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 ## Hướng dẫn chơi:
 - Người chơi bắt đầu với 10 máu và 6 viên đạn
 - có 4 chế độ `easy`, `medium`, `hard`, `very hard`
-- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, nhiều bẫy hơn
+- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, nhiều bẫy hơn, nhiều quái ngẫu nhiên hơn
 - Nhấn `a`, `d`, `w` để di chuyển trái/phải/lên
 - Nhấn `w` lần thứ 2 để double jump
 - Nhấn `1`, `2`, `4` để chuyển trạng thái bình thường/tăng tốc/bắn nhiều đạn
