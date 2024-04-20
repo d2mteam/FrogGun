@@ -1,7 +1,10 @@
 # FrogGun
 SDL2_Game_Project
+
 Đây là bài tập lớn về làm game trên sdl2 trong học phần Lập trìng nâng cao
+
 Sinh viên: Dương Đình Minh
+
 MSV: 23020110
 ## Giới thiệu về game
 FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối. Hãy đánh bại kẻ địch và đạt điểm số cao nhất.   
