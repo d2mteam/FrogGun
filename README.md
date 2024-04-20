@@ -17,7 +17,7 @@ mingw32-make
 g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf
 ./main
 ```
-- hoặc có thể tạo fie task json trong vscode và thêm phần này vào
+- hoặc có thể tạo fie task.json trong vscode và thêm phần này vào
 ``` json
             "args": [
                 "-fdiagnostics-color=always",
