@@ -48,11 +48,13 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - Nhấn `ESC` để pause game
 ## Tài liệu tham khảo
 - Tham khảo và học hỏi về hướng đối tượng và thư viện SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
+- Các file game asset được lấy từ [itch.io](https://itch.io/game-assets/free)
 ## Kiến thức sử dụng
 - OOP (Lớp, đối tượng, tính đa hình, tính kế thừa, virtual fuction và override)
 - Một số kiến thức toán học, hình học
 - Kiến thức đã học trong học phần Lập trình nâng cao (INT2215)
 - Thư viện SDL2
+- Các dùng git và github cơ bản
 ## Ngưỡng điểm mong muốn
 - Điểm số em mong muốn là khoảng ngưỡng 8.5.
 - Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí.
