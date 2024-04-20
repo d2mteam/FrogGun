@@ -1,13 +1,17 @@
 # FrogGun
 SDL2_Game_Project
 
-Đây là bài tập lớn về làm game trên sdl2 trong học phần Lập trìng nâng cao
+Đây là bài tập lớn về làm game trên sdl2 trong học phần Lập trìng nâng cao (INT2215)
 
 Sinh viên: Dương Đình Minh
 
 MSV: 23020110
 ## Giới thiệu về game
-FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối. Hãy đánh bại kẻ địch và đạt điểm số cao nhất.   
+- FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật
+- Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối. Hãy đánh bại kẻ địch và đạt điểm số cao nhất.
+- Người chơi bắt đầu với 10 máu và 6 viên đạn
+- có 4 chế độ `easy`, `medium`, `hard`, `very hard`
+- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, nhiều bẫy hơn, nhiều quái ngẫu nhiên hơn. Hãy cẩn thận vì từ chế độ `medium` trở lên bạn cần phải né các kẻ địch từ trên trời rơi xuống  
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
 - mở terminal lên và chạy lệnh
@@ -40,15 +44,14 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
             ],
 ```
 ## Hướng dẫn chơi:
-- Người chơi bắt đầu với 10 máu và 6 viên đạn
-- có 4 chế độ `easy`, `medium`, `hard`, `very hard`
-- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, nhiều bẫy hơn, nhiều quái ngẫu nhiên hơn
 - Nhấn `a`, `d`, `w` để di chuyển trái/phải/lên
 - Nhấn `w` lần thứ 2 để double jump
 - Nhấn `1`, `2`, `4` để chuyển trạng thái bình thường/tăng tốc/bắn nhiều đạn
 - Nhấn `q`, `e` để đổi loại đạn
 - Nhấn `SHIFT` để dash
 - Nhấn `ESC` để pause game
+- Mỗi lần giết đc 6 con quái sẽ đc hồi một lượng máu và đạn nhất định
+- Boss cuối có 50 máu, 2 giai đoạn. Hãy cẩn thận vè khi boss cuối càng ít máu thì càng nguy hiểm
 ## Tài liệu tham khảo
 - Tham khảo và học hỏi về hướng đối tượng và thư viện SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 - Các file game asset được lấy từ [itch.io](https://itch.io/game-assets/free)
