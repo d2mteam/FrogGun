@@ -36,4 +36,4 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - SDL2
 ## Ngưỡng điểm mong muốn
 - Điểm số em mong muốn là khoảng ngưỡng 8 - 8.5.
-- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm thanh sinh động và nhân vật di chuyển mượt mà.
+- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game.
