@@ -24,7 +24,7 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, nhiều bẫy hơn
 - Nhấn `a`, `d`, `w` để di chuyển trái/phải/lên
 - Nhấn `w` lần thứ 2 để double jump
-- Nhấn `1`, `2`, `4` để chuyển trạng thái bình thường/chạy nhanh/bắn nhiều đạn
+- Nhấn `1`, `2`, `4` để chuyển trạng thái bình thường/tăng tốc/bắn nhiều đạn
 - Nhấn `q`, `e` để đổi loại đạn
 - Nhấn `SHIFT` để dash
 - Nhấn `ESC` để pause game
