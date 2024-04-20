@@ -11,7 +11,7 @@ MSV: 23020110
 - Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối. Hãy đánh bại kẻ địch và đạt điểm số cao nhất.
 - Người chơi bắt đầu với 10 máu và 6 viên đạn
 - có 4 chế độ `easy`, `medium`, `hard`, `very hard`
-- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, nhiều bẫy hơn, nhiều quái ngẫu nhiên hơn. Hãy cẩn thận vì từ chế độ `medium` trở lên bạn cần phải né các kẻ địch từ trên trời rơi xuống  
+- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, kẻ thù nhiều máu hơn, nhiều bẫy hơn, nhiều quái ngẫu nhiên hơn. Hãy cẩn thận vì từ chế độ `medium` trở lên bạn cần phải né các kẻ địch bất ngờ từ trên trời rơi xuống  
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
 - mở terminal lên và chạy lệnh
@@ -46,12 +46,13 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 ## Hướng dẫn chơi:
 - Nhấn `a`, `d`, `w` để di chuyển trái/phải/lên
 - Nhấn `w` lần thứ 2 để double jump
-- Nhấn `1`, `2`, `4` để chuyển trạng thái bình thường/tăng tốc/bắn nhiều đạn
+- Nhấn `1`, `2`, `4` để chuyển trạng thái `STYLE 1`(bình thường)/`Trickster`(tăng tốc)/`SuperGun`(bắn nhiều đạn)
 - Nhấn `q`, `e` để đổi loại đạn
 - Nhấn `SHIFT` để dash
 - Nhấn `ESC` để pause game
 - Mỗi lần giết đc 6 con quái sẽ đc hồi một lượng máu và đạn nhất định
-- Boss cuối có 50 máu, 2 giai đoạn. Hãy cẩn thận vè khi boss cuối càng ít máu thì càng nguy hiểm
+- Boss cuối có 50 máu, 2 giai đoạn. Hãy cẩn thận về sau khi boss cuối càng ít máu thì càng nguy hiểm
+- Nhân vật có 4 cấp, khi lên cấp sẽ tăng lượng đạn bắn ra và tăng tốc nhân vật
 ## Tài liệu tham khảo
 - Tham khảo và học hỏi về hướng đối tượng và thư viện SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 - Các file game asset được lấy từ [itch.io](https://itch.io/game-assets/free)
@@ -63,4 +64,4 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - Cách dùng git và github cơ bản
 ## Ngưỡng điểm mong muốn
 - Điểm số em mong muốn là khoảng ngưỡng 8.5.
-- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm nhạc hay, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí.
+- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp và bắt mắt, âm nhạc hay, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí. Áp dụng được kiến thức đã học vào game
