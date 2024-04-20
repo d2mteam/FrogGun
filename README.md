@@ -73,4 +73,4 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - Xử lí va chạm
 ## Ngưỡng điểm mong muốn
 - Điểm số em mong muốn là khoảng ngưỡng 8.5.
-- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp và bắt mắt, âm nhạc hay, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí. Áp dụng được kiến thức đã học vào game
+- Lí do em mong muốn được ngưỡng điểm trên là game có đồ họa tương đối đẹp và bắt mắt, âm nhạc hay, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí. Áp dụng được kiến thức đã học vào game.
