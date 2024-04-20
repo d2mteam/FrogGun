@@ -11,7 +11,22 @@ MSV: 23020110
 - Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối. Hãy đánh bại kẻ địch và đạt điểm số cao nhất.
 - Người chơi bắt đầu với 10 máu và 6 viên đạn
 - có 4 chế độ `easy`, `medium`, `hard`, `very hard`
-- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, kẻ thù nhiều máu hơn, nhiều bẫy hơn, nhiều quái ngẫu nhiên hơn. Hãy cẩn thận vì từ chế độ `medium` trở lên bạn cần phải né các kẻ địch bất ngờ từ trên trời rơi xuống  
+- các chế độ trên `easy` sẽ khó hơn khăn, nhiều kẻ thù hơn, kẻ thù nhiều máu hơn, nhiều bẫy hơn, nhiều quái ngẫu nhiên hơn. Hãy cẩn thận vì từ chế độ `medium` trở lên bạn cần phải né các kẻ địch bất ngờ từ trên trời rơi xuống
+## Điểm nổi bật
+- Đồ họa bắt mắt: Game có đồ họa tương đối đẹp và kết hợp một tông màu chủ đạo để tạo nên một cái nhìn tổng quan về hình ảnh của game
+- Đa dạng loại quái vật: Game có nhiều loại quái vật khác nhau để người chơi khám phá, mỗi con quái vật đều có hình ảnh, cách thức di chuyển và tấn công riêng biệt, làm cho game trở nên đầy hấp dẫn
+- Cơ chế tấn công độc đáo: Game có cơ chế tấn công đặc biệt, người chơi có thể kết hợp các kỹ năng để vượt qua các màn chơi
+- Dễ tiếp cận: Game được thiết kế để dễ làm quen và tiếp cận, có hướng dẫn cách thức di chuyển và tấn công
+## Kiến thức sử dụng
+- OOP (Lớp, đối tượng, tính đa hình, tính kế thừa, virtual fuction và override)
+- Một số kiến thức toán học, hình học
+- Kiến thức đã học trong học phần Lập trình nâng cao (INT2215)
+- Thư viện SDL2, SDL2_image, SDL2_mixer, SDL2_ttf  
+- Cách dùng git và github cơ bản
+- Kỹ thuật sử dụng hoạt ảnh (Sprites)
+- Kỹ thuật Scrolling View
+- Xử lí va chạm
+- Infinite background  
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
 - mở terminal lên và chạy lệnh
@@ -62,15 +77,6 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
   - Kẻ địch https://pixelfrog-assets.itch.io/pixel-adventure-2
   
   - Background https://free-game-assets.itch.io/free-sky-with-clouds-background-pixel-art-set
-## Kiến thức sử dụng
-- OOP (Lớp, đối tượng, tính đa hình, tính kế thừa, virtual fuction và override)
-- Một số kiến thức toán học, hình học
-- Kiến thức đã học trong học phần Lập trình nâng cao (INT2215)
-- Thư viện SDL2, SDL2_image, SDL2_mixer, SDL2_ttf  
-- Cách dùng git và github cơ bản
-- Kỹ thuật sử dụng hoạt ảnh (Sprites)
-- Kỹ thuật Scrolling View
-- Xử lí va chạm
 ## Ngưỡng điểm mong muốn
 - Điểm số em mong muốn là khoảng ngưỡng 8.5.
 - Lí do em mong muốn được ngưỡng điểm trên là game có đồ họa tương đối đẹp và bắt mắt, âm nhạc hay, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí. Áp dụng được kiến thức đã học vào game.
