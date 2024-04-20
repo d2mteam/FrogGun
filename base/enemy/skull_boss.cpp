@@ -36,8 +36,6 @@ void skull::EnemyStatus(SDL_Rect p_rect, SDL_Renderer* screen,const Map& map_dat
         input_type_.jump_ = 0;
     }
 
-    
-
     int height_min = height_frame_ < TILE_SIZE ? height_frame_ : TILE_SIZE;
     int x1 = 0;
     int x2 = 0;
@@ -105,7 +103,7 @@ void skull::InitBullet(SDL_Renderer* screen)
                 p_bullet->LoadImg("image//enemy_image//enemy_bullet.png",screen);
                 p_bullet->set_bullet_distance(500);
                 p_bullet->set_x_val(40);
-                p_bullet->set_y_val(3*(i-(tp-1)/2));
+                p_bullet->set_y_val(5*(i-(tp-1)/2));
                 p_bullet->set_bullet_dir(BulletObject::DIR_RIGHT);
                 bullet_list_.push_back(p_bullet);
             }
@@ -136,7 +134,7 @@ void skull::InitBullet(SDL_Renderer* screen)
                 p_bullet->LoadImg("image//enemy_image//enemy_bullet_2.png",screen);
                 p_bullet->set_bullet_distance(500);
                 p_bullet->set_x_val(40);
-                p_bullet->set_y_val(3*(i-(tp-1)/2));
+                p_bullet->set_y_val(5*(i-(tp-1)/2));
                 p_bullet->set_bullet_dir(BulletObject::DIR_RIGHT);
                 bullet_list_.push_back(p_bullet);
             }

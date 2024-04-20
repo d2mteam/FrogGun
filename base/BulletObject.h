@@ -61,8 +61,7 @@ private:
     int bullet_distance_;
     int style_;
     unsigned int bullet_dir_;
-
-
+    
     static Map gamemap_;
 };
 #endif

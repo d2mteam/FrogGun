@@ -9,9 +9,7 @@
 #include "base/Random.h"
 
 MainObject p_player;
-BaseObject g_background;
-BaseObject g_menu_screen;
-BaseObject g_gameover_screen;
+
 
 BaseObject Layout[5];
 
@@ -57,10 +55,7 @@ bool InitData()
 				success=false;
 		}
 	}
-	for(int i = 1; i <= 5; i++)
-	{
-		Layout[i-1].LoadImg("image//background//"+std::to_string(i)+".png",g_screen);
-	}
+
 	if(TTF_Init() == -1)
 	{
 		success = false;
@@ -92,19 +87,21 @@ bool InitData()
 }
 bool LoadBackground()
 {
-	bool ret = g_background.LoadImg("image//background.png",g_screen);
-	bool ret2 = g_menu_screen.LoadImg("image//menu//menu.png",g_screen);
+	bool ret = true;
+	for(int i = 1; i <= 5; i++)
+	{
+		bool reti = Layout[i-1].LoadImg("image//background//"+std::to_string(i)+".png",g_screen);
+		ret = (reti && ret);
+	}
 	if(ret == false)
 	{
 		throw std::runtime_error("LoadBackground error\n"); 
 		return false;
 	}
-		
 	return true;
 }
 void close()
 {
-	g_background.Free();
 	SDL_DestroyRenderer(g_screen);
 	for(int i = 0; i < 5; i++)
 	{

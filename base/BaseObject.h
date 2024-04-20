@@ -1,7 +1,8 @@
 #ifndef BASE_OBJECT_H
 #define BASE_OBJECT_H
 #include "basefuction.h"
-class BaseObject{
+class BaseObject
+{
 public:
     BaseObject();
     ~BaseObject();

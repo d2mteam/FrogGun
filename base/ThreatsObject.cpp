@@ -209,9 +209,9 @@ void ThreatsObject::CheckToMap(Map& map_data)
 
     int height_min = height_frame_ < TILE_SIZE ? height_frame_ : TILE_SIZE;
     x1 = (x_pos_ + x_val_)/TILE_SIZE;
-    x2 = (x_pos_ + x_val_+ width_frame_ -1)/TILE_SIZE;
+    x2 = (x_pos_ + x_val_+ width_frame_ * 0.8 - 1)/TILE_SIZE;
     y1 = (y_pos_)/TILE_SIZE;
-    y2 = (y_pos_ + height_min -1)/TILE_SIZE;
+    y2 = (y_pos_ + height_min - 1)/TILE_SIZE;
 
 
     if(x1 >=0 && x2< MAP_MAX_X && y1 >= 0 && y2 < MAP_MAX_Y)
@@ -239,10 +239,10 @@ void ThreatsObject::CheckToMap(Map& map_data)
     //Check ver
 
     int width_min = width_frame_ < TILE_SIZE ? width_frame_ : TILE_SIZE;
-    x1 = (x_pos_ + width_frame_*0.1)/TILE_SIZE;
-    x2 = (x_pos_ + width_frame_ - width_frame_*0.1)/TILE_SIZE;
+    x1 = (x_pos_ + width_min* 0.1 )/TILE_SIZE;
+    x2 = (x_pos_ + width_min - width_frame_*0.1)/TILE_SIZE;
     y1 = (y_pos_ + y_val_)/TILE_SIZE;
-    y2 = (y_pos_ + y_val_ + height_frame_ -1)/TILE_SIZE;
+    y2 = (y_pos_ + y_val_ + height_frame_  - 1)/TILE_SIZE;
 
     if(x1 >=0 && x2 < MAP_MAX_X && y1 >= 0 && y2 < MAP_MAX_Y)
     {
@@ -323,52 +323,7 @@ void ThreatsObject::ImpMoveType(SDL_Renderer* screen)
 
 void ThreatsObject::InitBullet(SDL_Renderer* screen)
 {
-    if(type_move_ != FLY_ENEMY && type_move_ != STATIC_MOVE_THREAT)
-    {
-        BulletObject* p_bullet = new BulletObject();
-        p_bullet->LoadImg("image//enemy_image//enemy_bullet.png",screen);
-        p_bullet->set_x_val(15);
-        if(input_type_.left_ == 1 && input_type_.right_ == 0)
-        {
-            p_bullet->set_bullet_dir(BulletObject::DIR_LEFT);
-            p_bullet->SetPosXY(x_pos_ - 20,y_pos_ + height_frame_ * 0.3);
-        }
-        if(input_type_.left_ == 0 && input_type_.right_ == 1)
-        {
-            p_bullet->set_bullet_dir(BulletObject::DIR_RIGHT);
-            p_bullet->SetPosXY(x_pos_ + width_frame_ - 20,y_pos_ + height_frame_ * 0.3);
-        }
-        p_bullet->set_is_move(true);
-        bullet_list_.push_back(p_bullet);        
-    }
-    if(type_move_ == FLY_ENEMY)
-    {
-        BulletObject* p_bullet = new BulletObject();
-        p_bullet->LoadImg("image//enemy_image//enemy_bullet.png",screen);
-        p_bullet->set_y_val(10);
-        p_bullet->set_bullet_dir(BulletObject::DIR_DOWN);
-        p_bullet->SetPosXY(x_pos_ + width_frame_,y_pos_ + height_frame_);
-        p_bullet->set_is_move(true);
-        bullet_list_.push_back(p_bullet);
-    }
-    if(type_move_ == STATIC_MOVE_THREAT && frame_bullet_ <= 0)
-    {   
-        if(input_type_.left_ == 1 && input_type_.right_ == 0)
-        {
-            for(int i = 0; i < 8; i++)
-            {
-                BulletObject* p_bullet = new BulletObject();
-                p_bullet->set_bullet_dir(BulletObject::DIR_LEFT);
-                p_bullet->LoadImg("image//enemy_image//enemy_bullet_left.png",screen);
-                p_bullet->SetMapXY(map_x_,map_y_);
-                p_bullet->SetPosXY(x_pos_ - 20,y_pos_ + height_frame_ * 0.3);
-                p_bullet->set_x_val(30);
-                p_bullet->set_y_val(3 * (i- 3.5));
-                p_bullet->set_is_move(true);
-                bullet_list_.push_back(p_bullet);
-            }
-        }
-    }
+    
 }
 void ThreatsObject::MakeBullet(SDL_Renderer* screen,const int& x_limit,const int& y_limit)
 {
