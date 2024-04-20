@@ -1,7 +1,7 @@
 # FrogGun
 SDL2_Game_Project
 
-Đây là bài tập lớn về làm game trên sdl2 trong học phần Lập trìng nâng cao (INT2215)
+Đây là bài tập lớn về làm game dùng thư viện SDL2 trong học phần Lập trìng nâng cao (INT2215)
 
 Sinh viên: Dương Đình Minh
 
