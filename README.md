@@ -54,7 +54,7 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - Một số kiến thức toán học, hình học
 - Kiến thức đã học trong học phần Lập trình nâng cao (INT2215)
 - Thư viện SDL2
-- Các dùng git và github cơ bản
+- Cách dùng git và github cơ bản
 ## Ngưỡng điểm mong muốn
 - Điểm số em mong muốn là khoảng ngưỡng 8.5.
-- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí.
+- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm nhạc hay, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí.
