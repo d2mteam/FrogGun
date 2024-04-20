@@ -32,7 +32,7 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - Tham khảo và học hỏi về hướng đối tượng và thư viện SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 ## Kiến thức sử dụng
 - Lớp, đối tượng, tính đa hình, tính kế thừa
-- một số kiến thức toán học, hình học
+- Một số kiến thức toán học, hình học
 - Thư viện SDL2
 ## Ngưỡng điểm mong muốn
 - Điểm số em mong muốn là khoảng ngưỡng 8 - 8.5.
