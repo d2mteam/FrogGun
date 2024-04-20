@@ -1,12 +1,11 @@
 # FrogGun
-
 SDL2_Game_Project
+Đây là bài tập lớn trong học phần Lập trìng nâng cao
 
 Sinh viên: Dương Đình Minh
-
 MSV: 23020110
 
-FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối  
+FrogGun là một trò chơi phiêu lưu hành động nơi người chơi điều khiển một chú ếch có khả năng bắn đạn để chiến đấu với các con quái vật. Trò chơi có nhiều tổng cộng 4 màn chơi và 1 boss cuối. Hãy đánh bại kẻ địch và đạt điểm số cao nhất.   
 ## Hướng dẫn cài đặt
 - Tải xuống hoặc clone repo này về máy
 - mở terminal lên và chạy lệnh
@@ -31,9 +30,10 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 ## Tài liệu tham khảo
 - Tham khảo và học hỏi về hướng đối tượng và thư viện SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 ## Kiến thức sử dụng
-- Lớp, đối tượng, tính đa hình, tính kế thừa
+- OOP (Lớp, đối tượng, tính đa hình, tính kế thừa, virtual fuction và override)
 - Một số kiến thức toán học, hình học
+- Kiến thức đã học trong học phần Lập trình nâng cao (INT2215)
 - Thư viện SDL2
 ## Ngưỡng điểm mong muốn
-- Điểm số em mong muốn là khoảng ngưỡng 8 - 8.5.
-- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game.
+- Điểm số em mong muốn là khoảng ngưỡng 8.5.
+- Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game. Sử dụng OOP một cách tương đối hợp lí.
