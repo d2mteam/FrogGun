@@ -17,6 +17,26 @@ mingw32-make
 g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf
 ./main
 ```
+- hoặc có thể tạo fie task json trong vscode và thêm phần này vào
+``` json
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${fileDirname}\\main.cpp",
+                "${fileDirname}\\base\\**.cpp",
+                "${fileDirname}\\base\\enemy\\**.cpp",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-Isrc/include",
+                "-Lsrc/lib",
+                "-lmingw32",
+                "-lSDL2main",
+                "-lSDL2",
+                "-lSDL2_image",
+                "-lSDL2_mixer",
+                "-lSDL2_ttf"
+            ],
+```
 ## Hướng dẫn chơi:
 - Người chơi bắt đầu với 10 máu và 6 viên đạn
 - có 4 chế độ `easy`, `medium`, `hard`, `very hard`
