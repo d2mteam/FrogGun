@@ -29,11 +29,11 @@ g++ -I base -I src/include -L src/lib -o main main.cpp base/enemy/*.cpp base/*.c
 - Nhấn `SHIFT` để dash
 - Nhấn `ESC` để pause game
 ## Tài liệu tham khảo
-- Tham khảo và học hỏi về hướng đối tượng và SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
+- Tham khảo và học hỏi về hướng đối tượng và thư viện SDL2 từ [PhatTrienPhanMem123AZ](https://www.youtube.com/@PhatTrienPhanMem123AZ) và [lazyfoo](https://lazyfoo.net/tutorials/SDL/index.php)
 ## Kiến thức sử dụng
 - Lớp, đối tượng, tính đa hình, tính kế thừa
-- Toán học
-- SDL2
+- một số kiến thức toán học, hình học
+- Thư viện SDL2
 ## Ngưỡng điểm mong muốn
 - Điểm số em mong muốn là khoảng ngưỡng 8 - 8.5.
 - Lí do em mong muốn được ngưỡng điểm trên là đồ họa tương đối đẹp, âm thanh sinh động và nhân vật di chuyển mượt mà. Đã thiết kế được đầy đủ  giao diện cơ bản cho game.
